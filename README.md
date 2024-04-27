@@ -1,1 +1,1 @@
-# XarrPay-Help
+# XarrPay
