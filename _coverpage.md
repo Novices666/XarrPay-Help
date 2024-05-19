@@ -7,5 +7,5 @@
 - 更强大、更稳定、更安全
 - 个人版、商户版
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[XarrPay](#xarrpay)
+[开始阅读](#xarrpay)
+<!-- [XarrPay](#xarrpay) -->
