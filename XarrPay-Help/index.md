@@ -6,6 +6,11 @@ hero:
   name: "XarrPay-Help"
   text: "更强大、更稳定、更安全"
   tagline: 基于GoLang的码支付系统帮助文档
+  image:
+    src: /_media/logo.png
+    alt: Xarr
+    width: 150
+    height: 150
   actions:
     - theme: brand
       text: 快速开始-个人版
@@ -23,4 +28,32 @@ features:
   # - title: 监控端
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+  .image-bg[data-v-72cc4481] {
+        width: 200px;
+        height: 200px;
+  }
+  .name[data-v-72cc4481], .text[data-v-72cc4481] {
+    line-height: 64px;
+    font-size: 52px;
+  }
+}
+</style>
