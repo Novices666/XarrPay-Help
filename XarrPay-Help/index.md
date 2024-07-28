@@ -23,6 +23,28 @@ features:
   - title: 授权中心
     details: XarrPay授权管理中心
     link: 'https://aupay.52nyg.com/'
+  - title: 个人版演示
+    details: |
+      点击跳转前台地址
+      ---
+      账号：usertest
+      ---
+      密码：123456
+    link: 'https://npay.hg007.cc/user'
+  - title: 商户版演示
+    details: | 
+      点击跳转前台地址
+      ---
+      后台地址：/admin
+      ---
+      账号密码：admin
+      ---
+      前台账号：user
+      ---
+      前台密码：123456
+      
+    link: 'https://pay.hg007.cc/'
+  
   # - title: 个人版
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   # - title: 监控端
@@ -46,14 +68,6 @@ features:
 @media (min-width: 960px) {
   :root {
     --vp-home-hero-image-filter: blur(68px);
-  }
-  .image-bg[data-v-72cc4481] {
-        width: 200px;
-        height: 200px;
-  }
-  .name[data-v-72cc4481], .text[data-v-72cc4481] {
-    line-height: 64px;
-    font-size: 52px;
   }
 }
 </style>
