@@ -19,18 +19,26 @@ export default defineConfig({
     },
 
     outline: {
-      label: '目录'
+      label: '目录',
+      level: [2,3]
     },
 
 
     // 导航栏配置
     nav: [
       { text: '主页', link: '/' },
+      { text: '项目配置', 
+        items: [
+          { text: '通道管理', link: '通道管理/支付宝' },
+          { text: '监控端', link: '/监控端/APP监控' },
+        ] 
+      },
       { text: '常用工具', 
         items: [
           { text: '草料二维码', link: 'https://cli.im/' },
           { text: '拉卡拉转换工具', link: '/常用工具/拉卡拉转换工具' },
-        ] }
+        ] 
+      },
     ],
     // 侧边栏配置
     sidebar: [
@@ -38,7 +46,8 @@ export default defineConfig({
         text: '个人版',
         items: [
           { text: '个人版-授权', link: '/个人版/授权' },
-          { text: '个人版-安装', link: '/个人版/安装' }
+          { text: '个人版-安装', link: '/个人版/安装' },
+          { text: '个人版-自定义页面', link: '/个人版/自定义页面' },
         ]
       },
       {
@@ -49,17 +58,24 @@ export default defineConfig({
         ]
       },
       {
-        text: '监控端',
-        items: [
-          { text: '监控端-三网监控', link: '/监控端/三网监控' },
-        ]
-      },
-      {
         text: '通道管理',
         items: [
           { text: '通道管理-支付宝', link: '/通道管理/支付宝' },
           { text: '通道管理-微信', link: '/通道管理/微信' },
           { text: '通道管理-QQ', link: '/通道管理/QQ' },
+        ]
+      },
+      {
+        text: '监控端',
+        items: [
+          { text: '监控端-APP监控', link: '/监控端/APP监控' },
+          { text: '监控端-PC三网监控', link: '/监控端/PC三网监控' },
+        ]
+      },
+      {
+        text: '常见问题',
+        items:  [ 
+          { text: '常见问题-程序', link: '/常见问题/程序问题' },
         ]
       }
     ],
