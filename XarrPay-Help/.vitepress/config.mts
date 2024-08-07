@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-
+  base: "/XarrPay-Help/",
   title: "XarrPay-Help",
   description: "XarrPay-Help",
   themeConfig: {

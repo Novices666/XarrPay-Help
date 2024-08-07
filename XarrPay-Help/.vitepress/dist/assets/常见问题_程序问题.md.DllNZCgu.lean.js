@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as i,a2 as e}from"./chunks/framework.18SR7CyY.js";const _=JSON.parse('{"title":"常见问题","description":"","frontmatter":{},"headers":[],"relativePath":"常见问题/程序问题.md","filePath":"常见问题/程序问题.md"}'),t={name:"常见问题/程序问题.md"},l=e("",11),p=[l];function n(h,d,o,c,r,k){return i(),a("div",null,p)}const u=s(t,[["render",n]]);export{_ as __pageData,u as default};

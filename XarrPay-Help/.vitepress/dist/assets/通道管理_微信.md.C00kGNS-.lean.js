@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a2 as o}from"./chunks/framework.18SR7CyY.js";const f=JSON.parse('{"title":"微信通道","description":"","frontmatter":{},"headers":[],"relativePath":"通道管理/微信.md","filePath":"通道管理/微信.md"}'),r={name:"通道管理/微信.md"},_=o("",3),s=[_];function n(c,i,p,d,l,h){return t(),e("div",null,s)}const P=a(r,[["render",n]]);export{f as __pageData,P as default};
