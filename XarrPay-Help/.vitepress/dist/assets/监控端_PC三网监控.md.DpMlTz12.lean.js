@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a2 as o}from"./chunks/framework.18SR7CyY.js";const u=JSON.parse('{"title":"三网监控","description":"","frontmatter":{},"headers":[],"relativePath":"监控端/PC三网监控.md","filePath":"监控端/PC三网监控.md"}'),l={name:"监控端/PC三网监控.md"},c=o("",29),i=[c];function s(n,p,r,d,h,g){return t(),e("div",null,i)}const b=a(l,[["render",s]]);export{u as __pageData,b as default};

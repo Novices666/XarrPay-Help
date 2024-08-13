@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // github上传需开启
   base: "/XarrPay-Help/",
   title: "XarrPay-Help",
   description: "XarrPay-Help",
@@ -36,6 +37,7 @@ export default defineConfig({
       { text: '常用工具', 
         items: [
           { text: '草料二维码', link: 'https://cli.im/' },
+          { text: '授权管理中心', link: 'https://aupay.52nyg.com/' },
           { text: '拉卡拉转换工具', link: '/常用工具/拉卡拉转换工具' },
         ] 
       },

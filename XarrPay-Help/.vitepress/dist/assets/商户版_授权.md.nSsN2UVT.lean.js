@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a2 as r}from"./chunks/framework.18SR7CyY.js";const m=JSON.parse('{"title":"授权","description":"","frontmatter":{},"headers":[],"relativePath":"商户版/授权.md","filePath":"商户版/授权.md"}'),o={name:"商户版/授权.md"},l=r("",8),c=[l];function i(s,n,d,p,h,_){return t(),e("div",null,c)}const f=a(o,[["render",i]]);export{m as __pageData,f as default};

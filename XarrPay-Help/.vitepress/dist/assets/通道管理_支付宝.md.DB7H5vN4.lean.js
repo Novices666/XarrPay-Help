@@ -1,1 +1,0 @@
-import{_ as a,c as l,o as t,a2 as e}from"./chunks/framework.18SR7CyY.js";const u=JSON.parse('{"title":"支付宝通道","description":"","frontmatter":{},"headers":[],"relativePath":"通道管理/支付宝.md","filePath":"通道管理/支付宝.md"}'),p={name:"通道管理/支付宝.md"},o=e("",32),i=[o];function r(s,c,n,d,h,m){return t(),l("div",null,i)}const b=a(p,[["render",r]]);export{u as __pageData,b as default};
