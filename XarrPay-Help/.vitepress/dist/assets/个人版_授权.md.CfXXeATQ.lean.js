@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a2 as r}from"./chunks/framework.BikPdvwc.js";const m=JSON.parse('{"title":"授权","description":"","frontmatter":{},"headers":[],"relativePath":"个人版/授权.md","filePath":"个人版/授权.md"}'),o={name:"个人版/授权.md"},l=r("",8),c=[l];function s(i,n,d,p,h,_){return t(),e("div",null,c)}const f=a(o,[["render",s]]);export{m as __pageData,f as default};

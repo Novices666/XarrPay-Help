@@ -1,10 +1,27 @@
 import { defineConfig } from 'vitepress'
-
+import mdItCustomAttrs  from 'markdown-it-custom-attrs'
 // https://vitepress.dev/reference/site-config
+
 export default defineConfig({
   base: "/XarrPay-Help/",// github上传需开启，确保githubpages正常
   title: "XarrPay-Help",
   description: "XarrPay-Help",
+  markdown:{
+    config: (md) => {
+        // use more markdown-it plugins!
+        md.use(mdItCustomAttrs, 'image', {
+            'data-fancybox': "gallery"
+        })
+        }
+    },
+  head:[
+    [
+        "link",
+        { rel: "stylesheet", href: "../css/fancybox.css" },
+    ],
+    ["script", { src: "../js/fancybox.umd.js" }],
+  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: { src: '/_media/logo.png', width: 24, height: 24 },

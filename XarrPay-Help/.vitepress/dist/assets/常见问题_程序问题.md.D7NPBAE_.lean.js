@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as i,a2 as e}from"./chunks/framework.BikPdvwc.js";const u=JSON.parse('{"title":"常见问题","description":"","frontmatter":{},"headers":[],"relativePath":"常见问题/程序问题.md","filePath":"常见问题/程序问题.md"}'),t={name:"常见问题/程序问题.md"},l=e("",13),p=[l];function n(h,o,d,r,c,k){return i(),a("div",null,p)}const _=s(t,[["render",n]]);export{u as __pageData,_ as default};

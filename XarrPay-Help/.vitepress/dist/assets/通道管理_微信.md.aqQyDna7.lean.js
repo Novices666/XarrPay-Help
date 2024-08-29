@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a2 as o}from"./chunks/framework.BikPdvwc.js";const f=JSON.parse('{"title":"微信通道","description":"","frontmatter":{},"headers":[],"relativePath":"通道管理/微信.md","filePath":"通道管理/微信.md"}'),r={name:"通道管理/微信.md"},_=o("",3),n=[_];function s(c,i,l,d,p,h){return t(),e("div",null,n)}const P=a(r,[["render",s]]);export{f as __pageData,P as default};

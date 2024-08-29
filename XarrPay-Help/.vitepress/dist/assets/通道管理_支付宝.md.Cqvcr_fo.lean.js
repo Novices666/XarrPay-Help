@@ -1,0 +1,1 @@
+import{_ as a,c as l,o as t,a2 as e}from"./chunks/framework.BikPdvwc.js";const u=JSON.parse('{"title":"支付宝通道","description":"","frontmatter":{},"headers":[],"relativePath":"通道管理/支付宝.md","filePath":"通道管理/支付宝.md"}'),o={name:"通道管理/支付宝.md"},p=e("",32),r=[p];function i(c,s,n,d,h,g){return t(),l("div",null,r)}const b=a(o,[["render",i]]);export{u as __pageData,b as default};

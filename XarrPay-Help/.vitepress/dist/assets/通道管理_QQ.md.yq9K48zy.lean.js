@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a2 as o}from"./chunks/framework.BikPdvwc.js";const m=JSON.parse('{"title":"QQ通道","description":"","frontmatter":{},"headers":[],"relativePath":"通道管理/QQ.md","filePath":"通道管理/QQ.md"}'),r={name:"通道管理/QQ.md"},c=o("",3),n=[c];function s(_,i,l,d,p,Q){return t(),e("div",null,n)}const f=a(r,[["render",s]]);export{m as __pageData,f as default};
