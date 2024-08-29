@@ -40,6 +40,7 @@ export default defineConfig({
           { text: '拉卡拉转换工具', link: '/常用工具/拉卡拉转换工具' },
         ] 
       },
+      
     ],
     // 侧边栏配置
     sidebar: [
