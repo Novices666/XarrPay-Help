@@ -13,11 +13,8 @@ hero:
     height: 150
   actions:
     - theme: brand
-      text: 快速开始-个人版
-      link: /个人版/授权
-    - theme: brand
-      text: 快速开始-商户版
-      link: /商户版/授权
+      text: 快速开始
+      link: /快速开始/简介
     - theme: alt
       text: 常见问题
       link: /常见问题/程序问题
@@ -54,7 +51,5 @@ features:
   # - title: 监控端
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-:::info 📢
-# 24/08/30商户版正式转正，预计会涨价，今明两天入手商户版最佳时机！！！
-:::
+
 

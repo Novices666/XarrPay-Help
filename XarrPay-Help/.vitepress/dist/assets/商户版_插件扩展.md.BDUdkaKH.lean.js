@@ -1,0 +1,1 @@
+import{_ as e,c as a,o,a2 as t}from"./chunks/framework.BikPdvwc.js";const m=JSON.parse('{"title":"插件扩展","description":"","frontmatter":{},"headers":[],"relativePath":"商户版/插件扩展.md","filePath":"商户版/插件扩展.md"}'),c={name:"商户版/插件扩展.md"},l=t("",7),d=[l];function i(s,r,n,p,_,u){return o(),a("div",null,d)}const f=e(c,[["render",i]]);export{m as __pageData,f as default};

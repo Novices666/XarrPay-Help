@@ -1,1 +1,0 @@
-import{_ as a,c as l,o as t,a2 as o}from"./chunks/framework.BikPdvwc.js";const _=JSON.parse('{"title":"安装xarrpay商户版","description":"","frontmatter":{},"headers":[],"relativePath":"商户版/安装.md","filePath":"商户版/安装.md"}'),e={name:"商户版/安装.md"},c=o("",7),i=[c];function s(d,n,r,p,g,h){return t(),l("div",null,i)}const y=a(e,[["render",s]]);export{_ as __pageData,y as default};
