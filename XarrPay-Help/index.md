@@ -35,15 +35,6 @@ features:
   - title: 商户版演示
     details: | 
       点击跳转前台地址
-      ---
-      后台地址：/admin
-      ---
-      账号密码：admin
-      ---
-      前台账号：user
-      ---
-      前台密码：123456
-      
     link: 'https://pay.hg007.cc/'
   
   # - title: 个人版
