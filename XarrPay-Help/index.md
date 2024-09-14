@@ -6,6 +6,11 @@ hero:
   name: "XarrPay-Help"
   text: "更强大、更稳定、更安全"
   tagline: 基于GoLang的码支付系统帮助文档
+  # prelink:
+  #   title: '<i class="fa-solid fa-bolt" style="color: #63E6BE;"></i> 快速开始<div style="text-align: right; font-weight: bold;"><i class="fas fa-pnpm" style="color: #FFD43B;"></i>pnpm add @theojs/lumen</div>'
+  #   link: /guide/getting-started
+  #   target: _blank
+
   image:
     src: /_media/logo.png
     alt: Xarr

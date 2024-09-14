@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a2 as t}from"./chunks/framework.BikPdvwc.js";const c=JSON.parse('{"title":"自定义页面","description":"","frontmatter":{},"headers":[],"relativePath":"个人版/自定义页面.md","filePath":"个人版/自定义页面.md"}'),l={name:"个人版/自定义页面.md"},n=t("",7),h=[n];function p(k,e,E,d,r,o){return a(),i("div",null,h)}const y=s(l,[["render",p]]);export{c as __pageData,y as default};

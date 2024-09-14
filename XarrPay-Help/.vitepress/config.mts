@@ -32,10 +32,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: { src: '/_media/logo.png', width: 24, height: 24 },
-    footer: {
-      message: '搬运请注明出处',
-      copyright: `版权所有 © 2024 XarrPay-Help`
-    },
+    // footer: {
+    //   message: '搬运请注明出处',
+    //   copyright: `版权所有 © 2024 XarrPay-Help`
+    // },
 
     docFooter: {
       prev: '上一页',
@@ -91,7 +91,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '商户版-安装', link: '/商户版/安装' },
-          { text: '商户版-插件扩展', link: '/商户版/插件扩展' }
+          { text: '商户版-插件扩展', link: '/商户版/插件扩展' },
+          { text: '商户版-自定义首页', link: '/商户版/自定义首页' },
         ]
       },
       {

@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a2 as l}from"./chunks/framework.BikPdvwc.js";const b=JSON.parse('{"title":"三网监控","description":"","frontmatter":{},"headers":[],"relativePath":"监控端/PC三网监控.md","filePath":"监控端/PC三网监控.md"}'),o={name:"监控端/PC三网监控.md"},c=l("",29),i=[c];function n(s,r,d,p,h,g){return t(),e("div",null,i)}const u=a(o,[["render",n]]);export{b as __pageData,u as default};
