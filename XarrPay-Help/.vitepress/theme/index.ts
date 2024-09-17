@@ -13,19 +13,22 @@ import { DocAsideLogo } from '@theojs/lumen'
 import { Aside_Data } from '../data/AsideData'
 
 import { ShareButton } from '@theojs/lumen'
-
+import { DocBox, DocLinks, DocBoxCube } from '@theojs/lumen'
 export default {
-    extends: DefaultTheme,
-    Layout() { 
-        return h(DefaultTheme.Layout, null, { 
-          'home-hero-info-before': () => h(Announcement),
-          'layout-bottom': () => h(HomeFooter, { Footer_Data }) ,
-          'aside-ads-before': () => h(DocAsideLogo, { Aside_Data }) ,
-          'aside-outline-before': () => h(ShareButton),
+  extends: DefaultTheme,
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'home-hero-info-before': () => h(Announcement),
+      'layout-bottom': () => h(HomeFooter, { Footer_Data }),
+      'aside-ads-before': () => h(DocAsideLogo, { Aside_Data }),
+      'aside-outline-before': () => h(ShareButton),
 
-        }) 
-      },
-      enhanceApp: ({ app }) => {    
-        app.component('Home', HomeUnderline) 
-      },
+    })
+  },
+  enhanceApp: ({ app }) => {
+      app.component('Home', HomeUnderline),
+      app.component('Box', DocBox)
+      app.component('Links', DocLinks)
+      app.component('BoxCube', DocBoxCube)
+  },
 }
