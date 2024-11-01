@@ -93,6 +93,7 @@ export default defineConfig({
           { text: '商户版-安装', link: '/商户版/安装' },
           { text: '商户版-插件扩展', link: '/商户版/插件扩展' },
           { text: '商户版-自定义首页', link: '/商户版/自定义首页' },
+          { text: '商户版-站长应用', link: '/商户版/站长应用' },
         ]
       },
       {
