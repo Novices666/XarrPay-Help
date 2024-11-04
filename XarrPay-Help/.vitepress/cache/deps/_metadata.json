@@ -1,31 +1,31 @@
 {
-  "hash": "6fdf406a",
+  "hash": "bbc9c829",
   "configHash": "48063e8a",
-  "lockfileHash": "8d3e784e",
-  "browserHash": "96147247",
+  "lockfileHash": "88260613",
+  "browserHash": "0a16c012",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "6852cdbc",
+      "fileHash": "8555e392",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "4f76d16a",
+      "fileHash": "8dcdcd36",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "25eefed1",
+      "fileHash": "33ba7b61",
       "needsInterop": false
     },
     "@theojs/lumen": {
       "src": "../../../../node_modules/@theojs/lumen/components/index.ts",
       "file": "@theojs_lumen.js",
-      "fileHash": "0cf1538b",
+      "fileHash": "4b66da68",
       "needsInterop": false
     }
   },

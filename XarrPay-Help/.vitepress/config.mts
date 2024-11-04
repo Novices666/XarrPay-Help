@@ -64,6 +64,7 @@ export default defineConfig({
           { text: '草料二维码', link: 'https://cli.im/' },
           // { text: '授权管理中心', link: 'https://aupay.52nyg.com/' },
           { text: '拉卡拉转换工具', link: '/常用工具/拉卡拉转换工具' },
+          { text: '转发提取工具', link: '/常用工具/转发提取工具' },
         ]
       },
 
