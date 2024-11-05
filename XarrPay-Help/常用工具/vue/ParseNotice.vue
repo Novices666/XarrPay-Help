@@ -15,9 +15,14 @@
       复制链接
     </button>
     <button
-      style="font-size: 1em;  background-color: #10b98124; padding: 10px 20px; border: none; cursor: pointer; border-radius: 8px; margin-top: 2px; margin-bottom: 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
-      @click="requestApi">
+      style="font-size: 1em;  background-color: #10b98124; padding: 10px 20px; border: none; cursor: pointer; border-radius: 8px; margin-right: 10px;margin-top: 2px; margin-bottom: 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+      @click="getResult">
       提取
+    </button>
+    <button
+      style="font-size: 1em;  background-color: #10b98124; padding: 10px 20px; border: none; cursor: pointer; border-radius: 8px; margin-top: 2px; margin-bottom: 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+      @click="delResult">
+      删除
     </button>
 
     <div class="api-link">
@@ -48,7 +53,7 @@ export default {
     },
   },
   methods: {
-    async requestApi() {
+    async getResult() {
       if (!this.pid || !this.token) {
         alert('请填写 PID 和 Token');
         return;
@@ -57,6 +62,24 @@ export default {
       try {
         // 请求另一个 API 接口
         const response = await fetch(`https://xarr.hg007.cc/api/getParseResult?pid=${this.pid}&token=${this.token}`);
+        if (!response.ok) {
+          throw new Error('网络响应错误');
+        }
+        const data = await response.json();
+        this.result = JSON.stringify(data, null, 2);
+      } catch (error) {
+        this.result = `请求失败: ${error.message}`;
+      }
+    },
+    async delResult() {
+      if (!this.pid || !this.token) {
+        alert('请填写 PID 和 Token');
+        return;
+      }
+
+      try {
+        // 请求另一个 API 接口
+        const response = await fetch(`https://xarr.hg007.cc/api/delResult?pid=${this.pid}&token=${this.token}`);
         if (!response.ok) {
           throw new Error('网络响应错误');
         }
