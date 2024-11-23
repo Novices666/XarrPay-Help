@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../node_modules/@theojs/lumen/components/index.ts"],
-  "sourcesContent": ["export { default as DocBox } from './DocBox.vue'\nexport { default as DocLinks } from './DocLinks.vue'\nexport { default as DocBoxCube } from './DocBoxCube.vue'\nexport { default as DocVideoLink } from './DocVideoLink.vue'\nexport { default as Announcement } from './Announcement.vue'\nexport { default as DocAsideLogo } from './DocAsideLogo.vue'\nexport { default as HomeFooter } from './HomeFooter.vue'\nexport { default as HomeUnderline } from './HomeUnderline.vue'\nexport { default as Twikoo } from './DocTwikoo.vue'\nexport { default as ShareButton } from './ShareButton.vue'\n\nimport '@fortawesome/fontawesome-free/css/all.min.css'\n"],
-  "mappings": ";AAAA,SAAoB,WAAXA,gBAAyB;AAClC,SAAoB,WAAXA,gBAA2B;AACpC,SAAoB,WAAXA,gBAA6B;AACtC,SAAoB,WAAXA,gBAA+B;AACxC,SAAoB,WAAXA,gBAA+B;AACxC,SAAoB,WAAXA,gBAA+B;AACxC,SAAoB,WAAXA,gBAA6B;AACtC,SAAoB,WAAXA,gBAAgC;AACzC,SAAoB,WAAXA,iBAAyB;AAClC,SAAoB,WAAXA,iBAA8B;AAEvC,OAAO;",
-  "names": ["default"]
-}

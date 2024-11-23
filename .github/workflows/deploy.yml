@@ -1,6 +1,6 @@
 # 构建 VitePress 站点并将其部署到 GitHub Pages
 #
-name: Deploy VitePress site to Pages
+name: Deploy VuePress site to Pages
 
 on:
   # 在针对 `main` 分支的推送上运行
@@ -35,17 +35,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: yarn # 或 pnpm / yarn
+          cache: pnpm # 或 pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: yarn install # 或 pnpm install / yarn install / bun install
-      - name: Build with VitePress
-        run: yarn docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
+        run: pnpm install # 或 pnpm install / yarn install / bun install
+      - name: Build with VuePress
+        run: pnpm docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: XarrPay-Help/.vitepress/dist
+          path: XarrPay-Help/.vuepress/dist
   # 部署工作
   deploy:
     environment:
