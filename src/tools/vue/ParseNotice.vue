@@ -49,7 +49,7 @@ export default {
   computed: {
     apiLink() {
       // 更新为 parseNotice 接口的链接
-      return `https://xarr.hg007.cc/api/parseNotice?pid=${this.pid}&token=${this.token}`;
+      return `https://doc.xarr.uk/api/parseNotice?pid=${this.pid}&token=${this.token}`;
     },
   },
   methods: {
@@ -61,7 +61,7 @@ export default {
 
       try {
         // 请求另一个 API 接口
-        const response = await fetch(`https://xarr.hg007.cc/api/getParseResult?pid=${this.pid}&token=${this.token}`);
+        const response = await fetch(`https://doc.xarr.uk/api/getParseResult?pid=${this.pid}&token=${this.token}`);
         if (!response.ok) {
           throw new Error('网络响应错误');
         }
@@ -79,7 +79,7 @@ export default {
 
       try {
         // 请求另一个 API 接口
-        const response = await fetch(`https://xarr.hg007.cc/api/delResult?pid=${this.pid}&token=${this.token}`);
+        const response = await fetch(`https://doc.xarr.uk/api/delResult?pid=${this.pid}&token=${this.token}`);
         if (!response.ok) {
           throw new Error('网络响应错误');
         }
