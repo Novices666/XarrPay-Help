@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://xarr.hg007.cc",
+  hostname: "https://doc.xarr.uk",
 
   author: {
     name: "HG007",
