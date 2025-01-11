@@ -29,7 +29,8 @@ export default sidebar({
         "install",
         "template",
         "plugins",
-        "tools"
+        "tools",
+        "notify"
       ],
     },
   ],

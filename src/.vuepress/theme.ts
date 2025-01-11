@@ -69,8 +69,8 @@ export default hopeTheme({
         content:"2025年起只保留新地址：<br><a href='https://doc.xarr.uk' target='_blank'>https://doc.xarr.uk</a><br><br>个人版：99/年付<br>商户版：699/三年、299/年付<br>点击跳转购买，享受站长优质售后",
         actions: [
           {
-            text: "新地址",
-            link: "https://doc.xarr.uk",
+            text: "论坛",
+            link: "https://bbs.xarr.uk",
             type: "primary",
           },
           {
