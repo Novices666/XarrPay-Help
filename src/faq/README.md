@@ -47,3 +47,24 @@ kill -9 26739
 - 在宝塔项目管理中将状态更改为启动
 
 ## 3、代挂云端网关地址访问失败 {#常见问题3}
+像这样，服务器内部可以访问，但是外部浏览器无法访问
+![服务器内部浏览器](https://s2.loli.net/2025/01/18/lJWBZkmNd2fx1zy.png)
+![外部浏览器](https://s2.loli.net/2025/01/18/ThIy8voBMW1pU3q.png)
+请按照以下顺序进行排查
+::: tabs
+@tab 第一步
+排查服务器端口开放情况。
+@tab 第二步
+如果端口开放还不能访问，可能是服务器防火墙设置问题，请参考以下方式进行设置
+1. 按下`win`键，输入`防火墙`进行搜索，点击`高级安全Windows防火墙`
+![](https://s2.loli.net/2025/01/18/FRDTKGtWyB5r6vV.png)
+2. 点击`入站规则`->`新建规则`>选择`端口`>选择`TCP`>选择`特定本地端口`，填入`代挂云端`中的服务端口，这里是`52642`>选择`允许连接`>全选>命名规则，点击完成
+![](https://s2.loli.net/2025/01/18/JePQscqoKS1yXv3.png)
+![](https://s2.loli.net/2025/01/18/KqH8e3XGbUWadMs.png)
+![](https://s2.loli.net/2025/01/18/sFMKpt9PDCQNXZa.png)
+![](https://s2.loli.net/2025/01/18/wm6FIKhcr91bTk4.png)
+![](https://s2.loli.net/2025/01/18/iacEz9KgLSRWUqd.png)
+![](https://s2.loli.net/2025/01/18/thEqUNIcyzw9buG.png)   
+操作完成后外部浏览器就能访问了。
+![外部浏览器](https://s2.loli.net/2025/01/18/OdMwq9WVKR4xDvy.png)
+:::
