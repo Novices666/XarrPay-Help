@@ -39,9 +39,11 @@ export default sidebar({
       text: "通道配置",
       icon: "inbox",
       children: [
+        "xd",
         "alipay",
         "wxpay",
-        "qqpay"
+        "qqpay",
+        
       ],
     },
   ],

@@ -3,6 +3,7 @@ title: APP监控
 order: 1
 ---
 # APP监控
+## SmsForwarder配置
 ::: info 致谢
 APP监控使用`SmsForwarder`进行数据转发
 
@@ -39,7 +40,21 @@ Gitee仓库：https://gitee.com/pp/SmsForwarder/
 ::: tip
 v3.3.1开始只保留英文标签，请根据自己的版本，选择对应的模板
 :::
-::: details 版本号 < v3.3.1版本模板
+
+::: tabs#app_version
+@tab:active 版本号 > v3.3.1版本模板
+```json
+{
+    "from": "{{FROM}}",
+    "package_name": "{{PACKAGE_NAME}}",
+    "app_name": "{{APP_NAME}}",
+    "title": "{{TITLE}}",
+    "msg": "{{MSG}}",
+    "receive_time": "{{RECEIVE_TIME}}",
+    "device_name": "{{DEVICE_NAME}}"
+}
+```
+@tab 版本号 < v3.3.1版本模板
 ```json
 {
     "from": "{{来源号码}}",
@@ -53,19 +68,6 @@ v3.3.1开始只保留英文标签，请根据自己的版本，选择对应的�
 ```
 :::
 
-::: details 版本号 > v3.3.1版本模板
-```json
-{
-    "from": "{{FROM}}",
-    "package_name": "{{PACKAGE_NAME}}",
-    "app_name": "{{APP_NAME}}",
-    "title": "{{TITLE}}",
-    "msg": "{{MSG}}",
-    "receive_time": "{{RECEIVE_TIME}}",
-    "device_name": "{{DEVICE_NAME}}"
-}
-```
-:::
 ![](https://s2.loli.net/2024/08/03/FG6jtBgdIlfY9mT.png)
 ## 发送通道
 ::: tip
@@ -82,3 +84,5 @@ v3.3.1开始只保留英文标签，请根据自己的版本，选择对应的�
 - 支付宝：`com.eg.android.AlipayGphone`
 :::
 ![](https://s2.loli.net/2024/08/03/rhmAocUHP6nRsLa.png)
+
+## X转发器配置
