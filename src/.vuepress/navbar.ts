@@ -25,11 +25,6 @@ export default navbar([
         text: "工具",
         children:[
           {
-            text: "拉卡拉转换工具",
-            icon:"wrench",
-            link: "/tools/lkl.md"
-          },
-          {
             text: "转发提取工具",
             icon: "hammer",
             link: "/tools/notify.md"

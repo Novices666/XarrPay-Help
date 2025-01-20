@@ -62,7 +62,6 @@ export default sidebar({
       text: "常用工具",
       icon: "screwdriver-wrench",
       children: [
-        "lkl",
         "notify",
       ],
     },
