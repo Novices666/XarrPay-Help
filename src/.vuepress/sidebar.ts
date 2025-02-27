@@ -40,6 +40,7 @@ export default sidebar({
       icon: "inbox",
       children: [
         "xd",
+        "lz",
         "alipay",
         "wxpay",
         "qqpay",

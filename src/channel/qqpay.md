@@ -1,6 +1,6 @@
 ---
 title: QQ通道
-order: 4
+order: 12
 ---
 # QQ通道
 ## QQ个人码PC监控
