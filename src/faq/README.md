@@ -67,4 +67,23 @@ kill -9 26739
 ![](https://s2.loli.net/2025/01/18/thEqUNIcyzw9buG.png)   
 操作完成后外部浏览器就能访问了。
 ![外部浏览器](https://s2.loli.net/2025/01/18/OdMwq9WVKR4xDvy.png)
+@tab 第三步
+如果上述步骤操作完，可以正常访问云端，但是还是存在不回调的问题，先使用挂机宝/服务器的浏览器访问你的xarr网站，如果访问不通，请进行下述操作
+1. 按照以下路径找到挂机宝/服务器的hosts文件
+```
+C:\Windows\System32\drivers\etc
+```
+![](https://s2.loli.net/2025/03/02/J8mSLTz3Ho2IUX9.png)
+2. 使用文本编辑器打开hosts文件，新增一行，添加以下内容
+- 注意中间用一个空格隔开
+```
+你搭建xarr服务器的ip xarr绑定的域名
+```
+例如
+```
+127.0.0.1 xarr.example.com
+```
+![](https://s2.loli.net/2025/03/02/XQwSh7sqZiYVWIa.png)
+
+3. 再次使用挂机宝/服务器的浏览器访问你的xarr网站，访问通即解决。
 :::
