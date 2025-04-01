@@ -54,7 +54,8 @@ export default sidebar({
       icon: "eye",
       children: [
         "app",
-        "windows",
+        "windows-xd",
+        "windows-lz"
       ],
     },
   ],
