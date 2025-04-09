@@ -23,13 +23,14 @@ footer: false
 
 <SiteInfo 
   name="个人版-演示"
-  desc="账户：usertest   密码：123456"
-  url="https://npay.hg007.cc/user"
+  desc="账户：admin   密码：123456"
+  url="https://per.xarr.uk/"
   preview="./images/personal.png"
 />
 <SiteInfo 
+  style="white-space: pre-wrap;"
   name="商户版-演示"
-  desc="请自行注册体验"
-  url="https://pay.hg007.cc/"
+  desc="/user-账户：user-密码：123456 | /admin-账户：admin-密码：123456"
+  url="https://mer.xarr.uk/"
   preview="./images/merchant.png"
 />
