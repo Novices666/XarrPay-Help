@@ -1,0 +1,18 @@
+{
+                "from": "com.hz.hkrt.mercher",
+                "package_name": "com.hz.hkrt.mercher",
+                "app_name": "码钱商家",
+                "title": "微信收款：1.00元",
+                "msg": "收款设备：远程收款单",
+                "receive_time": "2024-11-19 22:07:42",
+                "device_name": ""
+            },
+            {
+                "from": "com.hz.hkrt.mercher",
+                "package_name": "com.hz.hkrt.mercher",
+                "app_name": "",
+                "title": "支付宝收款：1.00元",
+                "msg": "收款设备：远程收款单",
+                "receive_time": "2024-11-19 22:17:56",
+                "device_name": ""
+            }

@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://doc.xarr.uk/XarrPay-Help/sitemap.xml
