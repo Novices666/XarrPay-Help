@@ -4,18 +4,17 @@ icon: bolt
 index: false
 ---
 <VPBanner
-  title="XarrPay 商户版"
-  content="点击购买，享受站长优质售后！<br>请自行注册体验"
+  title="XArrPay-演示"
+  content="购买商户版，享受站长优质售后！<br>前台账户：user 密码：123456<br>后台账号：admin 密码：123456"
   logo="./logo.svg"
   :actions='[
     {
-      text: "购买",
-      link:"http://ksy.hg007.cc/goodslist?cid=12",
+      text: "演示-前台",
+      link:"https://mer.xarr.uk",
     },
     {
-      text: "演示",
-      link: "https://pay.hg007.cc/",
-      type: "default",
+      text: "演示-后台",
+      link: "https://mer.xarr.uk/admin",
     },
   ]'
 />

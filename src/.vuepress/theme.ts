@@ -8,7 +8,7 @@ export default hopeTheme({
 
   author: {
     name: "HG007",
-    url: "https://www.hg007.cc",
+    url: "https://www.higo.me",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -66,7 +66,7 @@ export default hopeTheme({
       {
         path:"/",
         title:"公告",
-        content:"个人版：99/年付、199/三年<br>商户版：299/年付、699/永久<br>点击跳转购买，享受站长优质售后",
+        content:"商户版：299/年付、699/永久<br>购买商户版，享受站长优质售后<br>站长QQ：1601413678",
         actions: [
           {
             text: "论坛",
@@ -74,11 +74,10 @@ export default hopeTheme({
             type: "primary",
           },
           {
-            text: "跳转购买",
-            link: "http://ksy.hg007.cc/goodslist?cid=12",
+            text: "博客",
+            link: "https://www.higo.me",
             type: "primary",
-          },
-          
+          }
         ],
       },
     ],

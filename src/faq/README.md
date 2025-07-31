@@ -4,13 +4,17 @@ icon: circle-question
 index: false
 ---
 <VPBanner
-  title="XarrPay"
-  content="点击购买，享受站长优质售后！"
+  title="XArrPay-演示"
+  content="购买商户版，享受站长优质售后！<br>前台账户：user 密码：123456<br>后台账号：admin 密码：123456"
   logo="./logo.svg"
   :actions='[
     {
-      text: "购买",
-      link:"http://ksy.hg007.cc/goodslist?cid=12",
+      text: "演示-前台",
+      link:"https://mer.xarr.uk",
+    },
+    {
+      text: "演示-后台",
+      link: "https://mer.xarr.uk/admin",
     },
   ]'
 />
@@ -21,9 +25,9 @@ index: false
 ```shell
 lsof -i:端口
 ```
-端口为你xarrpay的运行端口，如24017
+端口为你xarrpay的运行端口，如个人版为24017，商户版为32000
 ```shell
-lsof -i:24017
+lsof -i:32000
 ```
 ![image.png](https://s2.loli.net/2024/07/25/8CSK3c7vXtZ5zVr.png)
 将查询出的程序全部kill掉，执行下面的命令
@@ -38,7 +42,7 @@ kill -9 26739
 
 ## 2、程序自动更新失败 {#常见问题2}
 
-- 在宝塔项目管理中将项目状态更改为`停止`后，按照 [**常见问题1**](#常见问题1) 先执行一遍，确保没有多个XarrPay在运行。
+- 在宝塔项目管理中将项目状态更改为`停止`后，按照 [**常见问题1**](#常见问题1) 先执行一遍，确保没有多个XArrPay在运行。
 
 - 前往授权中心，下载最新版本安装包
 ![下载安装包](https://s2.loli.net/2024/03/30/Ft5jkfGbu7diyzI.png)

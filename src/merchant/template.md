@@ -2,10 +2,10 @@
 # 自定义首页
 
 ## 快速开始
-`XarrPay-Templates`是`XarrPay-商户版`的主题库
+`XArrPay-Templates`是`XArrPay-商户版`的主题库
 <Links
   :items="[
-    { name: 'XarrPay-Templates', link: 'https://github.com/Novices666/XarrPay-Templates', icon: 'fab fa-github' },
+    { name: 'XArrPay-Templates', link: 'https://github.com/Novices666/XArrPay-Templates', icon: 'fab fa-github' },
   ]"
 />
 

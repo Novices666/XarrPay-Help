@@ -12,7 +12,7 @@ Windows-2012R2-Datacenter
 ::: tip
 软件下载请到售后群文件夹
 :::
-下载后得到一个压缩包，将压缩包解压到任意目录，双击运行`XarrPay三网监控`
+下载后得到一个压缩包，将压缩包解压到任意目录，双击运行`XArrPay三网监控`
 
 ![image.png](https://s2.loli.net/2024/07/25/WldZ3T2jDNnyitu.png)
 ## 配置

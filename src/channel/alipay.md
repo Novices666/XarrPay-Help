@@ -60,9 +60,9 @@ https://open.alipay.com/
 如过提示，点击稍后操作即可。
 ![](https://s2.loli.net/2024/03/20/PrRNckz97LKxWl6.png)
 
-### 配置XarrPay
+### 配置XArrPay
 
-- 进入XarrPay管理后台，选择通道管理，按照下图新增通道，使用方式两者皆可
+- 进入XArrPay管理后台，选择通道管理，按照下图新增通道，使用方式两者皆可
 ![](https://s2.loli.net/2024/03/20/8gy17TIapjewduq.png)
 
 - 应用AppId，在支付宝开放平台，控制台中查询，如下图，私钥填写刚刚软件生成的私钥。
