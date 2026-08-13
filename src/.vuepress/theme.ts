@@ -66,18 +66,8 @@ export default hopeTheme({
       {
         path:"/",
         title:"公告",
-        content:"商户版：299/年付、699/永久<br>购买商户版，享受站长优质售后<br>站长QQ：1601413678",
+        content:"商户版：399/年付、799/永久<br>购买商户版，享受站长优质售后<br>站长QQ：1601413678",
         actions: [
-          {
-            text: "论坛",
-            link: "https://bbs.xarr.uk",
-            type: "primary",
-          },
-          {
-            text: "博客",
-            link: "https://www.higo.me",
-            type: "primary",
-          }
         ],
       },
     ],
